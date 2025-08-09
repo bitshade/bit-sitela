@@ -1,0 +1,29 @@
+# Ignorar pastas e arquivos gerados pelo Composer
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+
+# Ignorar arquivos temporários e de cache
+/web/sites/*/files/
+/web/sites/*/private/
+/web/sites/*/translations/
+/web/sites/*/settings.php
+/drush/sites/
+
+# Ignorar arquivos do ambiente local
+.idea/
+.vscode/
+.env
+.DS_Store
+*.log
+*.sql
+
+# Outros arquivos do projeto que não precisam ser versionados
+/drush/
+/web/modules/custom/
+/web/themes/custom/
+/web/libraries/
+/web/private/
+/web/themes/custom/
