@@ -1,0 +1,20 @@
+uuid: 16416812-c9b2-4576-adad-1c4c8e81ea2c
+langcode: en
+status: true
+dependencies:
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: 3whfTBH5cK3FV_jaZ0pxvasz0V5sHEQSZlsR_S5la8w
+id: TecWolf_page_title
+theme: TecWolf
+region: content
+weight: -5
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

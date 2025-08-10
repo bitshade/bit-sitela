@@ -1,0 +1,25 @@
+uuid: 538083ea-6b3b-4120-b4e6-45421abd174f
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: DQJ8_vTecemnY-BWDno5ieYLzKyJf120nPSVwHmFgs4
+id: TEC_WOLF_SITE_site_branding
+theme: TEC_WOLF_SITE
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

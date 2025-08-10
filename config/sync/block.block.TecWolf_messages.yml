@@ -1,0 +1,22 @@
+uuid: 1a7e4afc-e8d6-4829-8f83-793640bdc19c
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: 8GJHpukebAdtXnWq06Z7VYAvjHm0bCUuDfz4OY_GI_8
+id: TecWolf_messages
+theme: TecWolf
+region: highlighted
+weight: -5
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }

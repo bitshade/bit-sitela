@@ -1,0 +1,22 @@
+uuid: 36697ee8-9567-4fde-b8a9-41cdaeb6c53d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: 4nkcnqYKUQQWgqxEsu0arpHYJkujUJJcOG_8loOr6xw
+id: TecWolf_powered
+theme: TecWolf
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

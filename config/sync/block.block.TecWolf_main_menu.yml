@@ -1,0 +1,27 @@
+uuid: 63e556bf-0a53-4f3f-aeb9-20529d61d774
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: VWecYrgMjryBzJfkwmU51QIPQZe6HXNtGLeVGFpuhdk
+id: TecWolf_main_menu
+theme: TecWolf
+region: primary_menu
+weight: -5
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 1565e251-3da4-430b-b0b4-480917bf1dd8
+langcode: en
+status: true
+dependencies:
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: pVHvZdSeEpiFKZQrwe61MNcpSnq8chVtkXMoYffUgt8
+id: TecWolf_primary_local_tasks
+theme: TecWolf
+region: content
+weight: -3
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

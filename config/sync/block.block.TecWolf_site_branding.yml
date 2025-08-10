@@ -1,0 +1,25 @@
+uuid: 037f6a54-1807-47f7-bd46-75c7173dd3a8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: ZyaIInG6--It23-bJhPxw71S6WfyFeBFbBVmBvwQTEw
+id: TecWolf_site_branding
+theme: TecWolf
+region: header
+weight: -5
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

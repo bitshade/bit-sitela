@@ -1,0 +1,22 @@
+uuid: 001da9f2-f54f-4a5b-b178-478524ed0b47
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: 7GwZ_JmdOpL3ZYKogpCo3Si-DeIRbPr4CIxpQHVMnFk
+id: TEC_WOLF_SITE_breadcrumbs
+theme: TEC_WOLF_SITE
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

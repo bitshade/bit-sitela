@@ -1,0 +1,27 @@
+uuid: f79c06eb-d4a5-4150-8152-e2f07c536371
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.account
+  module:
+    - system
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: EcgrYSpC7nFzvEnzwaxcv-q9_ldj2fOlExyrM6xPUeE
+id: TEC_WOLF_SITE_account_menu
+theme: TEC_WOLF_SITE
+region: secondary_menu
+weight: -7
+provider: null
+plugin: 'system_menu_block:account'
+settings:
+  id: 'system_menu_block:account'
+  label: 'User account menu'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 1
+  expand_all_items: false
+visibility: {  }

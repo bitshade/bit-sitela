@@ -1,0 +1,22 @@
+uuid: 3a45f046-9805-4014-b23d-959282739a9d
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: ko_TRGqnFrZwl9rMaT5ZgDgA-NRjB9Y-NsTABJeZGcA
+id: TecWolf_breadcrumbs
+theme: TecWolf
+region: breadcrumb
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

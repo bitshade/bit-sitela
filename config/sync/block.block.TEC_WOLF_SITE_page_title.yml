@@ -1,0 +1,20 @@
+uuid: 2506bae3-8d6c-4768-9615-d52069999c38
+langcode: en
+status: true
+dependencies:
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: Ge2ome3N7yZRsMxQLz4hGDlfs2P0qgMLAT7byZdSh0Q
+id: TEC_WOLF_SITE_page_title
+theme: TEC_WOLF_SITE
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

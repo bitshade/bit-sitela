@@ -1,0 +1,22 @@
+uuid: 6d197702-b4bd-4908-9ba2-17d00b5f0561
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: UFFJuMR9uTI_IMYd8oPmxju0keDyCNmAg-2XfglCw-o
+id: TecWolf_content
+theme: TecWolf
+region: content
+weight: -1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

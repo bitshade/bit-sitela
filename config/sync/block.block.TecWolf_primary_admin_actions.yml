@@ -1,0 +1,20 @@
+uuid: 7ee0b1cd-3939-437c-bc17-454380c40227
+langcode: en
+status: true
+dependencies:
+  theme:
+    - TecWolf
+_core:
+  default_config_hash: 2iTK7629XnkSSXeXvQ4-ZtVXzSsKKKdGV32Jm-BVZkk
+id: TecWolf_primary_admin_actions
+theme: TecWolf
+region: content
+weight: -4
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Primary admin actions'
+  label_display: '0'
+  provider: core
+visibility: {  }

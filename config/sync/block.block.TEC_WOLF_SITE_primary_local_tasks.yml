@@ -1,0 +1,22 @@
+uuid: d19ff9b7-768c-458c-b1d8-84f94064676d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: 1q6Gvk6bKx1ERlCbp5ff68wBcfVyeHOEY27L-tptebs
+id: TEC_WOLF_SITE_primary_local_tasks
+theme: TEC_WOLF_SITE
+region: content
+weight: -5
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Primary tabs'
+  label_display: '0'
+  provider: core
+  primary: true
+  secondary: false
+visibility: {  }

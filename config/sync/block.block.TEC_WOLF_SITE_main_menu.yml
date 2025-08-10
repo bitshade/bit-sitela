@@ -1,0 +1,27 @@
+uuid: 1b496300-4caf-4121-a67c-7272057fada0
+langcode: en
+status: true
+dependencies:
+  config:
+    - system.menu.main
+  module:
+    - system
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: cqWwfr6t3kyVkUxr0TtBRzPfh0SZ8W9fxNl6TeDheuw
+id: TEC_WOLF_SITE_main_menu
+theme: TEC_WOLF_SITE
+region: primary_menu
+weight: -6
+provider: null
+plugin: 'system_menu_block:main'
+settings:
+  id: 'system_menu_block:main'
+  label: 'Main navigation'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 2
+  expand_all_items: true
+visibility: {  }

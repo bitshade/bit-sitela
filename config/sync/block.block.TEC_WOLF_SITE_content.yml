@@ -1,0 +1,22 @@
+uuid: 4a97d721-0f5d-4553-9e8b-8ee3281452bb
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - TEC_WOLF_SITE
+_core:
+  default_config_hash: R-YfDl4ClRDoj9XBa_4hrHI1wkY2_pJYbXlZxg2WJzU
+id: TEC_WOLF_SITE_content
+theme: TEC_WOLF_SITE
+region: content
+weight: -3
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }
